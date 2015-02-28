@@ -20,7 +20,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Press to continue"
+        android:text="Simon says, Next!"
         android:id="@+id/title_button"
         android:layout_below="@+id/imageView"
         android:layout_centerHorizontal="true" />

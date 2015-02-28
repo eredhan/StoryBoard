@@ -15,9 +15,9 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Button bob = (Button) findViewById(R.id.title_button);
+        Button joeBtn = (Button) findViewById(R.id.title_button);
 
-        bob.setOnClickListener(new View.OnClickListener() {
+        joeBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
                 // write something to do if clicked below
 

@@ -20,10 +20,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />o
 
-    <TextView android:text="Hi there,
-    \n\nEach page of this App demonstrates another capability that you can use for your apps. In order to follow this, please fork the project from GitHub, and then use 'Import from VCS' (or the equivalent for the command line) in order to get your own copy of this code into your editor.
-    \n\nThis page shows how to use 'intents' to move to another page, click the button below to proceed.
-    "
+    <TextView android:text="Hi there,     \n\nEach page of this App demonstrates another capability that you can use for your apps. In order to follow this, please fork the project from GitHub, and then use &apos;Import from VCS&apos; (or the equivalent for the command line) in order to get your own copy of this code into your editor.     \n\nThis page shows how to use &apos;intents&apos; to move to another page, click the button below to proceed.     "
      android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView"
