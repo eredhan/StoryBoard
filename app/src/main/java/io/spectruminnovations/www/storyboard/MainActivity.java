@@ -15,20 +15,30 @@ public class MainActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         Button joeBtn = (Button) findViewById(R.id.title_button);
 
         joeBtn.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
-                // write something to do if clicked below
+            // write something to do if clicked below
 
                 Intent intent = new Intent(MainActivity.this, Page1.class );
                 startActivity(intent);
             }
-
         });
 
-    }
+        // Button fredBtn = (Button) findViewById(R.id.level_2_button);
 
+        // fredBtn.setOnClickListener(new View.OnClickListener() {
+               // public void onClick(View view) {
+                // write something to do if clicked below
+
+        //        Intent intent = new Intent(MainActivity.this, FullscreenActivity.class );
+        //        startActivity(intent);
+        //     }
+        // });
+
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
