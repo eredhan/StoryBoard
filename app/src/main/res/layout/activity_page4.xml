@@ -20,7 +20,7 @@
         android:src="@android:drawable/sym_action_chat"
         android:minWidth="200dp"
         android:minHeight="200dp"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="41dp"
         android:layout_below="@+id/imageView5"
         android:layout_centerHorizontal="true" />
 
@@ -30,9 +30,9 @@
         android:layout_height="wrap_content"
         android:text="Prepare SMS"
         android:id="@+id/page_4_sms_button"
-        android:layout_below="@+id/imageView6"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="55dp" />
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/imageView5"
+        android:layout_toStartOf="@+id/imageView5" />
 
     <Button
         style="?android:attr/buttonStyleSmall"
@@ -40,6 +40,7 @@
         android:layout_height="wrap_content"
         android:text="Go To Page 5"
         android:id="@+id/goto_page_5_button"
-        android:layout_below="@+id/page_4_sms_button"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignTop="@+id/page_4_sms_button"
+        android:layout_toRightOf="@+id/page_4_sms_button"
+        android:layout_toEndOf="@+id/page_4_sms_button" />
 </RelativeLayout>

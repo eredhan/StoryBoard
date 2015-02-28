@@ -12,27 +12,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textView2"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="63dp" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
 
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/imageView3"
         android:src="@drawable/golden_fog_san_francisco"
-        android:layout_above="@+id/textView2"
+        android:layout_below="@+id/page_2_button"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Click For Page 3"
-        android:id="@+id/page_2_button"
-        android:layout_above="@+id/textView3"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -40,9 +32,17 @@
         android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="'Golden Fog, San Francisco' by runner310 - Flickr: Golden Fog. Licensed under CC BY 2.0 via Wikimedia Commons - http://commons.wikimedia.org/wiki/File:Golden_Fog,_San_Francisco.jpg#mediaviewer/File:Golden_Fog,_San_Francisco.jpg"
         android:id="@+id/textView3"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:textSize="7dp" />
+        android:textSize="7dp"
+        android:layout_alignBottom="@+id/imageView3"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Click For Page 3"
+        android:id="@+id/page_2_button"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true" />
 
 </RelativeLayout>
